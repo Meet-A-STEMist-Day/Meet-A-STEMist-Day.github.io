@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Libre+Franklin:ital,wght@0,100;0,400;0,700;1,100;1,400;1,700&family=Lora&display=swap');
+
+body {
+  color: rgb(64,145,236);
+  background-color: rgb(161,232,250);
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 0;
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  color: white;
+  background-color: rgb(64,145,236);
+  font-size: 50px;
+  display: inline-block;
+  padding: 20px;
+  font-family: "Lato", sans-serif;
+}
+
+h2 {
+  color: rgb(64,145,236);
+  font-size: 30px;
+  font-family: "Lato", sans-serif;
+}
+
+p {
+  font-size: 20px;
+}
+
+.text {
+  font-size: 20px;
+  color: #333;
+  text-align: center;
+  margin: 10px 80px;
+}
+
+footer {
+  font-size: 20px;
+  text-align: center;
+  color: purple;
+  margin-bottom: 0;
+  height: 10vh;
+  bottom: 0;
+}
