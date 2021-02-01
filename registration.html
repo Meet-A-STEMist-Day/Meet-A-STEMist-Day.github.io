@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="registration.css">
+<title>
+  STEM website
+</title>
+</head>
+
+<body>
+<header>
+<h1>
+  Meet a "STEMist" Day
+</h1>
+</header>
+<p>
+  Register for the event’s talks and workshops and learn about STEM careers, gender inequality in STEM and more!
+</p>
+
+<div class="nav">
+  <a href="homepage.html">Home</a>
+  <a href="schedule.html">Schedule</a>
+  <a href="speakers.html">Guest speakers</a>
+  <a href="STEM.html">STEM</a>
+  <a class="active" href="registration.html">Registration</a>
+</div>
+<br>
+<div class="container">
+  <header class="header">
+    <h2 id="title" class="text-center">Registration Form</h2>
+    <p id="description" class="description text-center">
+      Register for your favourite sessions!
+    </p>
+  </header>
+<br>
+
+<div class="registration-form">
+<br>
+<div class="container register">
+<div class="row">
+<div class="col-md-12">
+<div class="tab-pane fade show active text-align form-new" id="home" role="tabpanel" aria-labelledby="home-tab">
+<div class="row register-form">
+<div class="col-md-12">
+    <form method="post" autocomplete="off" name="google-sheet">
+        <div class="form-group">
+            <label id="name-label" for="first name">First name</label>
+            <input type="text" name="First name" class="form-control" placeholder="Enter your first name" value="" required=""/>
+        </div>
+
+        <div class="form-group">
+            <label id="name-label" for="last name">Last name</label>
+            <input type="text" name="Last name" class="form-control" placeholder="Enter your last name" value="" required=""/>
+        </div>
+
+        <div class="form-group">
+            <label id="email-label" for="email">School email</label>
+            <input type="text" name="School email" class="form-control" placeholder="Enter your school email" value="" required=""/>
+        </div>
+
+        <div class="form-group">
+            <label id="number-label" for="number">Year level<span class="clue"></span></label>
+            <input type="number" name="Year level" class="form-control" placeholder="Enter your year level" value="" min="5" max="13" required=""/>
+        </div>
+
+        <div class="form-group">
+            <p>Which is your first choice session?</p>
+            <label>
+              <input
+                name="First choice"
+                value="Session 1"
+                type="radio"
+                class="input-radio"
+                checked
+              />Session 1</label
+            ><br>
+            <label>
+              <input
+                name="First choice"
+                value="Session 2"
+                type="radio"
+                class="input-radio"
+              />Session 2</label
+            ><br> 
+            <label>
+              <input
+                name="First choice"
+                value="Session 3"
+                type="radio"
+                class="input-radio"
+              />Session 3</label
+            ><br> 
+            <label>
+              <input
+                name="First choice"
+                value="Session 4"
+                type="radio"
+                class="input-radio"
+              />Session 4</label
+            ><br>
+            <label>
+              <input
+                name="First choice"
+                value="Session 5"
+                type="radio"
+                class="input-radio"
+              />Session 5</label
+            ><br>                         
+        </div>
+
+        <div class="form-group">
+            <p>Which is your second choice session?</p>
+            <label>
+              <input
+                name="Second choice"
+                value="Session 1"
+                type="radio"
+                class="input-radio"
+                checked
+              />Session 1</label
+            ><br>
+            <label>
+              <input
+                name="Second choice"
+                value="Session 2"
+                type="radio"
+                class="input-radio"
+              />Session 2</label
+            ><br> 
+            <label>
+              <input
+                name="Second choice"
+                value="Session 3"
+                type="radio"
+                class="input-radio"
+              />Session 3</label
+            ><br> 
+            <label>
+              <input
+                name="Second choice"
+                value="Session 4"
+                type="radio"
+                class="input-radio"
+              />Session 4</label
+            ><br>
+            <label>
+              <input
+                name="Second choice"
+                value="Session 5"
+                type="radio"
+                class="input-radio"
+              />Session 5</label
+            ><br>                         
+        </div>
+
+        <div class="form-group">
+            <p>Which is your third choice session?</p>
+            <label>
+              <input
+                name="Third choice"
+                value="Session 1"
+                type="radio"
+                class="input-radio"
+                checked
+              />Session 1</label
+            ><br>
+            <label>
+              <input
+                name="Third choice"
+                value="Session 2"
+                type="radio"
+                class="input-radio"
+              />Session 2</label
+            ><br> 
+            <label>
+              <input
+                name="Third choice"
+                value="Session 3"
+                type="radio"
+                class="input-radio"
+              />Session 3</label
+            ><br> 
+            <label>
+              <input
+                name="Third choice"
+                value="Session 4"
+                type="radio"
+                class="input-radio"
+              />Session 4</label
+            ><br>
+            <label>
+              <input
+                name="Third choice"
+                value="Session 5"
+                type="radio"
+                class="input-radio"
+              />Session 5</label
+            ><br>                         
+        </div>
+
+        <div class="form-group">
+            <p>Any comments or suggestions?</p>
+            <textarea
+                id="comments"
+                class="input-textarea"
+                name="Comments/suggestions"
+                placeholder="Enter your comment here..."
+            ></textarea>
+        </div>  
+
+        <div class="form-group">
+            <input type="submit" name="Submit" class="submit-button" value="Submit" />
+        </div>
+        <br>
+    </form>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+</body>
+<footer>
+<br><br>
+  Created by Hayley Chu
+</footer>
+<p></p>
+</html>
+  
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxyWXRSrejn6n6-jSD-_Kf1cUDSo2FIOGW6hN6aXic9SSB2es2R66A3/exec'
+    const form = document.forms['google-sheet']
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => alert("Thanks for registering!"))
+        .catch(error => console.error('Error! Please try again.', error.message))
+    })
+</script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</body>
+</html>
